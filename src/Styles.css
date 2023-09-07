@@ -1,0 +1,28 @@
+:root{
+--Bright-orange: hsl(31,77%,52%);
+--Dark-cyan: hsl(184,100%,22%);
+--Very-dark-cyan: hsl(179,100%,13%);
+
+} 
+.me{
+    background-color: var(--Bright-orange) ;
+}
+.you{
+    background-color: var(--Dark-cyan);
+}
+.container{
+    width: 40%;
+    height: 20rem;
+    padding: 2rem;
+    margin: 0 auto;
+}
+.we{
+    background-color: var(--Very-dark-cyan);
+}
+.card-container{
+    width: 60%;
+    margin:  auto;
+    display: flex;
+    align-content:center ;
+
+}
